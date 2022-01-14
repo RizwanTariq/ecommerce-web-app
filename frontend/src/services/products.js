@@ -14,7 +14,7 @@ const products = [
   },
   {
     _id: '2',
-    name: 'Oppo Find X3 Pro',
+    name: 'Oppo Find X3 Pro 4gb Ram 64gb Rom',
     image: '/images/phone.jpg',
     description:
       'Introducing the Oppo Find X3 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
@@ -27,7 +27,7 @@ const products = [
   },
   {
     _id: '3',
-    name: 'Cannon EOS R5 Camera',
+    name: 'Cannon EOS R5 Ultra Camera',
     image: '/images/camera.jpg',
     description:
       'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
@@ -40,7 +40,7 @@ const products = [
   },
   {
     _id: '4',
-    name: 'Sony 4 Pro',
+    name: 'Sony Playstaion 4 Pro 1TB ',
     image: '/images/playstation.jpg',
     description:
       'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
@@ -53,7 +53,7 @@ const products = [
   },
   {
     _id: '5',
-    name: 'Logitech G413 Keyboard',
+    name: 'Logitech G413 Mechanical Keyboard',
     image: '/images/keyboard.jpg',
     description:
       'Get a better handle on your games with this Logitech LIGHTSYNC gaming keyboard. The six programmable buttons allow customization for a smooth playing experience',
@@ -66,7 +66,7 @@ const products = [
   },
   {
     _id: '6',
-    name: 'Amazon Echo Dot',
+    name: 'Amazon Echo Dot 3rd Genration',
     image: '/images/alexa.jpg',
     description:
       'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
