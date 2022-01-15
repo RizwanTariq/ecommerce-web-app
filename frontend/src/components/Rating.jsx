@@ -61,11 +61,11 @@ function Rating({ value, text, color }) {
           }
         ></i>
       </span>
-      <span>{text && text}</span>
+      <span> {text && text}</span>
     </div>
-  );
+  )
 }
 Rating.defaultProps = {
   color: '#F1C40F',
-};
-export default Rating;
+}
+export default Rating
