@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "E-commerce app backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Rizwan tariq",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
