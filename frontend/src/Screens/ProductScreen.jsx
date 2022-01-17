@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import {
   Button,
   Card,
@@ -9,10 +10,14 @@ import {
 } from 'react-bootstrap'
 import { Link, useParams } from 'react-router-dom'
 import Rating from '../components/Rating'
-import products from '../services/products'
+import { fetchProduct } from '../services/products'
 function ProductScreen() {
   const params = useParams()
-  const product = products.find((p) => p._id === params.id)
+  const [product, setProduct] = useState({})
+  useEffect(async () => {
+    const product = await fetchProduct(params.id)
+    setProduct(product)
+  }, [params])
   const { image, name, rating, numReviews, description, price, countInStock } =
     product
   return (

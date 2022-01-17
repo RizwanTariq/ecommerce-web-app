@@ -1,8 +1,16 @@
-import { Col, Row } from 'react-bootstrap';
-import Product from '../components/Product';
-import products from '../services/products';
+import { useEffect, useState } from 'react'
+import { Col, Row } from 'react-bootstrap'
+import Product from '../components/Product'
+import { fetchProducts } from '../services/products'
 
 function HomeScreen() {
+  const [products, setProducts] = useState([])
+
+  useEffect(async () => {
+    const products = await fetchProducts()
+    setProducts(products)
+  }, [])
+
   return (
     <>
       <h1>Latest Products</h1>
@@ -14,7 +22,7 @@ function HomeScreen() {
         ))}
       </Row>
     </>
-  );
+  )
 }
 
-export default HomeScreen;
+export default HomeScreen
