@@ -1,6 +1,10 @@
-import 'dotenv/config'
+import 'dotenv/config' //Same as dotenv.config()
 import express from 'express'
+import connectDB from './config/db.js'
 import products from './data/products.js'
+
+//Connect with DATABASE
+connectDB()
 
 const app = express()
 app.get('/', (req, res) => {
