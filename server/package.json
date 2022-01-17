@@ -4,7 +4,8 @@
   "description": "E-commerce app backend",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Rizwan tariq",
   "license": "ISC",
