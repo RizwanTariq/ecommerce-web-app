@@ -45,7 +45,7 @@ const productSchema = new Schema(
       required: true,
     },
     avgRating: {
-      type: Boolean,
+      type: Number,
       required: true,
     },
     price: {
