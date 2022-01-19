@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
-import dotEnv from 'dotenv'
-import colors from 'colors'
+import 'dotenv/config' //Same as dotenv.config()
+import 'colors'
 import connectDB from './config/db.js'
 import users from './data/users.js'
 import User from './models/userModel.js'
