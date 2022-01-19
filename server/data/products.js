@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'AirDots 3 Pro TWS Earphones',
     image: '/images/airdots.jpg',
     description:
@@ -9,11 +8,10 @@ const products = [
     category: 'Electronics',
     price: 89.99,
     countInStock: 10,
-    rating: 4.5,
+    avgRating: 4.5,
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'Oppo Find X3 Pro 4gb Ram 64gb Rom',
     image: '/images/phone.jpg',
     description:
@@ -22,11 +20,10 @@ const products = [
     category: 'Electronics',
     price: 599.99,
     countInStock: 7,
-    rating: 4.0,
+    avgRating: 4.0,
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Cannon EOS R5 Ultra Camera',
     image: '/images/camera.jpg',
     description:
@@ -35,11 +32,10 @@ const products = [
     category: 'Electronics',
     price: 929.99,
     countInStock: 5,
-    rating: 3,
+    avgRating: 3,
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Sony Playstaion 4 Pro 1TB ',
     image: '/images/playstation.jpg',
     description:
@@ -48,11 +44,10 @@ const products = [
     category: 'Electronics',
     price: 399.99,
     countInStock: 11,
-    rating: 5,
+    avgRating: 5,
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'Logitech G413 Mechanical Keyboard',
     image: '/images/keyboard.jpg',
     description:
@@ -61,11 +56,10 @@ const products = [
     category: 'Electronics',
     price: 49.99,
     countInStock: 7,
-    rating: 3.5,
+    avgRating: 3.5,
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Amazon Echo Dot 3rd Genration',
     image: '/images/alexa.jpg',
     description:
@@ -74,7 +68,7 @@ const products = [
     category: 'Electronics',
     price: 29.99,
     countInStock: 0,
-    rating: 4,
+    avgRating: 4,
     numReviews: 12,
   },
 ]
