@@ -17,7 +17,7 @@ function Product({ product }) {
         <Card.Text as='div'>
           <div className='my-3'>
             <Rating
-              value={product.rating}
+              value={product.avgRating}
               text={`${product.numReviews} reviews`}
             />
           </div>
